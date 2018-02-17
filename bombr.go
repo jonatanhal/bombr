@@ -121,7 +121,7 @@ func run() {
 		rect: pixel.R(-64,-64,64,64),
 	}
 
-	sheet, anims, err = loadAnimationSheet("sprites/bombr-sprite-0001.png", "sheet.csv", 32)
+	sheet, anims, err = loadAnimationSheet("bombr-sprite-0001.png", "sheet.csv", 32)
 	if err != nil {
 		panic(err)
 	}
